@@ -1,0 +1,11 @@
+name: 'YAPF Python Code Formatting Check'
+description: 'Run YAPF to check if your python code is correctly formatted.'
+author: "Alexander Melde <alexander@melde.net>"
+
+branding:
+  icon: 'check-circle'
+  color: 'green'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
