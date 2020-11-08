@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.7
 
 LABEL "com.github.actions.name"="Pylint test if your python code is correctly formatted."
 LABEL "com.github.actions.description"="Pylintto test if your python code is correctly formatted."
